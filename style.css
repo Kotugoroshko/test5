@@ -1,0 +1,200 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    width:100%;
+    /* height: 800px; */
+    font-family: 'Inter', sans-serif;
+}
+
+.main-header {
+    /* position: fixed;
+    top: 0;
+    left: 0; */
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, #CF2F2C 81%, #691816 100%);
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+ align-items: center;
+    justify-content: space-around;
+    /* z-index: 1000; */
+}
+
+.logo img{
+    padding-top: 15%;
+  width: 100%; 
+  }
+  
+
+.header-section{
+    width: 90%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+}
+.nav-menu {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.nav-menu button {
+    background: #f5f5f5;
+    border: 2px solid transparent;
+    border-radius: 30px;
+    padding: 12px 25px;
+    cursor: pointer;
+    font-size: 16px;
+    color: #333;
+    text-transform: uppercase;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+.vstavne_foto{
+     
+    width: 20%;
+}      
+.vstavne_foto3 {
+    
+    width: 20%;
+}
+.vstavne_foto2 {
+    
+    width: 20%;
+}
+
+.vstavne_foto4 {
+    
+    width: 20%;
+}
+
+
+
+.nav-menu button:hover {
+    background: #f0f0f0;
+    color: #CF2F2C;
+    border-color: #CF2F2C;
+    transform: scale(1.05);
+}
+
+.nav-menu button:active {
+    background: #e5e5e5;
+    transform: scale(0.98);
+}
+
+.search-bar {
+    margin-top: 10px;
+    flex-basis: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.search-bar input {
+    width: 50%;
+    padding: 12px 20px;
+    border-radius: 25px;
+    border: 2px solid #ccc;
+    font-size: 16px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contact-info, .social-links {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: white;
+    text-align: center;
+    flex-basis: 100%;
+    font-size: 16px;
+}
+.contact-info{
+    position: relative;
+    top: -50px;
+}
+.social-button{
+    position: static;
+    flex-direction: row;
+}
+.TikTok_button{
+    background-color: black;
+    color: white;
+    border: 2px solid transparent;
+    border-radius: 30px;
+    padding: 12px 25px;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+    
+}
+.TikTok_button:hover{
+    transform: scale(1.05);
+    background: #f0f0f0;
+    color: black;
+    transition: all 0.3s ease;
+}
+.FaceBook_button{
+    background-color: rgb(0, 39, 155);
+    color: white;
+    border: 2px solid transparent;
+    border-radius: 30px;
+    padding: 12px 25px;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+}
+.FaceBook_button:hover{
+    transform: scale(1.05);
+    background: rgb(3, 3, 236) ;
+    transition: all 0.3s ease;
+}
+.Instagram_button{
+    background-color: rgb(174, 0, 110);
+    color: white;
+    border: 2px solid transparent;
+    border-radius: 30px;
+    padding: 12px 25px;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+}
+.Instagram_button:hover{
+    transform: scale(1.05);
+    background: rgb(223, 5, 136) ;
+    transition: all 0.3s ease;
+}
+.cart{
+    
+    background: #f5f5f5;
+    border: 2px solid transparent;
+    border-radius: 30px;
+    padding: 12px 25px;
+    cursor: pointer;
+    font-size: 16px;
+    color: #333;
+    text-transform: uppercase;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+.cart:hover{
+    height: auto;
+    background: #f0f0f0;
+    color: #CF2F2C;
+    border-color: #CF2F2C;
+    transform: scale(1.05);
+}
+.product_in_cart{
+    font-size: 16px;
+    color: #333;
+}

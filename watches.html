@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Корзина — Exclusive</title>
+  <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+  
+  <button id="open-cart-btn" aria-label="Відкрити кошик">Кошик</button>
+<a href="index.html"><button class="main_button">Головна</button></a>
+  <div class="logo">
+    <img src="https://learn.logikaschool.com/uploads/student/2415971/67ff94d3dfdc5.png" alt="Логотип" />
+  </div>
+
+  <div class="search-bar">
+    <input type="text" placeholder="Я шукаю...">
+  </div>
+
+
+  <main class="products">
+    <div class="product">
+      <img src="https://learn.logikaschool.com/uploads/student/2415971/6814fbd90fd7a.png" alt="Годинник 1">
+      <p class="item_name">Годинник чоловічий</p>
+      <p>Ціна: <span class="price">2500</span> грн</p>
+      <button class="add_to_cart">Додати в кошик</button>
+    </div>
+    <div class="product">
+      <img src="https://learn.logikaschool.com/uploads/student/2415971/6814fc41ab2d2.png" alt="Годинник 2">
+      <p class="item_name">Годинник жіночий</p>
+      <p>Ціна: <span class="price">2200</span> грн</p>
+      <button class="add_to_cart">Додати в кошик</button>
+    </div>
+    <div class="product">
+      <img src="https://learn.logikaschool.com/uploads/student/2415971/6814fcab60c58.png" alt="Годинник 3">
+      <p class="item_name">Годинник з металу</p>
+      <p>Ціна: <span class="price">3000</span> грн</p>
+      <button class="add_to_cart">Додати в кошик</button>
+    </div>
+  </main>
+
+  <!-- Випливаючий кошик -->
+  <div id="cart" class="cart hidden" role="dialog" aria-modal="true" aria-labelledby="cart-title">
+    <h3 id="cart-title">Кошик</h3>
+    <ul id="cart-items"></ul>
+    <p>Разом: <span id="cart-total">₴0</span></p>
+    <button id="close-cart">Закрити</button>
+    <button id="checkout-btn">Сплатити</button>
+  </div>
+
+  
+  <script src="script.js"></script>
+</body>
+</html>
